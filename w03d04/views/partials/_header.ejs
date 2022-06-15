@@ -1,0 +1,15 @@
+<nav>
+  <h2>Superawesome App!</h2>
+  
+  <div>
+    <% if (username) { %>
+      <p>You are logged in as: <%= username %></p>
+      <form method="POST" action="/logout">
+        <button type="submit">Logout</button>
+      </form>
+    <% } else { %>
+      <a href="/login">Login</a>
+      <a href="/register">Register</a>
+    <% } %>
+  </div>
+</nav>

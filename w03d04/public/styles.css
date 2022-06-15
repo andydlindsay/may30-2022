@@ -1,0 +1,13 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+}
+
+nav div p, nav div a {
+  margin-right: 10px;
+}
