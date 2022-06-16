@@ -1,6 +1,6 @@
 const bcrypt = require('bcryptjs');
 
-// const salt = bcrypt.genSaltSync(10);
+const salt = bcrypt.genSaltSync(10);
 // console.log('salt', salt);
 
 const password = 'secret';
@@ -28,12 +28,3 @@ console.log('result', result);
 //   .then((hash) => {
 //     console.log('async hash:', hash);
 //   });
-
-
-
-
-
-
-
-
-
