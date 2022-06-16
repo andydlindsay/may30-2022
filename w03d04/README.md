@@ -89,33 +89,6 @@
   | POST | /resources | Create a new resource (Add) |
   | DELETE | /resources/:id | Delete an existing resource (Delete) |
 
-### Modular Routing
-- Store routes in multiple files to keep them organized
-- In Express, we need to use the Express.Router() method to give us back a **router** object
-- All routes will be added to this _router_ object
-- Finally, we export the _router_ object from the file to be imported into our Express server file (eg. `server.js`)
-
-  ```js
-  // post-router.js
-  const express = require('express');
-  const router = express.Router();
-
-  router.get('/', (req, res) => {
-    // typical route handler in here
-    res.send('hello world');
-  });
-
-  module.exports = router;
-
-  // server.js
-  const postRouter = require('./routes/post-router');
-  app.use('/posts', postRouter);
-  ```
-
-### JSON API's
-- So far, our servers have been returning server-side rendered templates, but our Express server can be configured to return different types of information including strings/objects (`res.send`), files (`res.sendFile`), and JSON (`res.json`)
-- JSON API's are concerned only with sending data (as opposed to HTML), so they are typically consumed with AJAX requests
-
 ### Useful Links
 * [Plain Text Offenders](https://github.com/plaintextoffenders/plaintextoffenders/blob/master/offenders.csv)
 * [How Does Encryption Work?](https://medium.com/searchencrypt/what-is-encryption-how-does-it-work-e8f20e340537)
