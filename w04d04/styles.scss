@@ -1,0 +1,76 @@
+@import 'variables';
+
+h1 {
+  font-size: 20px;
+  padding: 15px;
+  color: $primary;
+  border: $border;
+  display: $display;
+}
+
+h2 {
+  color: $secondary;
+}
+
+// div p {
+//   padding: 20px;
+//   color: $secondary;
+// }
+
+// div a {
+//   color: purple;
+// }
+
+div {
+  font-size: 24px;
+  text-decoration: underline;
+
+  &:hover {
+    color: palegoldenrod;
+  }
+
+  p {
+    color: honeydew;
+
+    span {
+      text-align: center;
+    }
+  }
+
+  a {
+    color: plum;
+  }
+}
+
+// <div>
+//   <p><span></span></p>
+//   <a></a>
+// </div>
+
+// header {
+//   font-size: 24px;
+//   color: $secondary;
+// }
+
+// .my-header {
+//   @extend header;
+//   text-align: justify;
+// }
+
+@mixin header-styles($n, $a) {
+  font-size: 24px;
+  color: gold;
+  width: 2 * $n;
+  height: 3 * $n;
+  font-weight: $a;
+}
+
+.my-header {
+  @include header-styles(24em, 300);
+  color: white;
+  text-transform: uppercase;
+}
+
+.my-other-header {
+  @include header-styles(12em, 600);
+}

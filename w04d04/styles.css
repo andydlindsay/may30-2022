@@ -1,0 +1,48 @@
+h1 {
+  font-size: 20px;
+  padding: 15px;
+  color: brown;
+  border: 10px dotted hotpink;
+  display: flex;
+}
+
+h2 {
+  color: orange;
+}
+
+div {
+  font-size: 24px;
+  text-decoration: underline;
+}
+div:hover {
+  color: palegoldenrod;
+}
+div p {
+  color: honeydew;
+}
+div p span {
+  text-align: center;
+}
+div a {
+  color: plum;
+}
+
+.my-header {
+  font-size: 24px;
+  color: gold;
+  width: 48em;
+  height: 72em;
+  font-weight: 300;
+  color: white;
+  text-transform: uppercase;
+}
+
+.my-other-header {
+  font-size: 24px;
+  color: gold;
+  width: 24em;
+  height: 36em;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=styles.css.map */
