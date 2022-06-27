@@ -4,3 +4,5 @@
 * [W03D01 - Web Servers 101](/w03d01)
 * [W03D04 - Security & Real World HTTP Servers](/w03d04)
 * [W04D04 - Responsive Design and SASS](/w04d04)
+* [W05D03 - SQL from our Apps](/w05d03)
+* [W05D05 - Mid-term Project Kickoff](/w05d05)
