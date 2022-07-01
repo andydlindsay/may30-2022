@@ -5,6 +5,12 @@
 * experience working with a team
 * a good checkpoint
 
+### Potential Schedule
+* Day 1 & 2: Fri, Sat === planning
+* Day 3 - 6: Sun - Wed === grind
+* Day 7: Thurs === polish rough edges, practice your demo
+* Day 8: Demo day === React starts
+
 ### Pick a project
 
 ### User Stories
@@ -98,11 +104,7 @@ app.get('/login/:id', (req, res) => {
 * this is the hardest part
 * discord, slack, hangouts, zoom, instant messaging
 
-Schedule
-* Day 1 & 2: Fri, Sat === planning
-* Day 3 - 6: Sun - Wed === grind
-* Day 7: Thurs === polish rough edges, practice your demo
-* Day 8: Demo day === React starts
+
 
 
 
