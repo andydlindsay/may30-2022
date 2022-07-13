@@ -5,10 +5,6 @@
 - [x] Immutable Update Patterns with Arrays and Objects
 - [x] Updating Complex State
 
-
-props => data from outside of our component being passed in
-state => data that belongs to our component
-
 ### Recap: Components, Props, and State
 - Components:
   - The building blocks of a React application
