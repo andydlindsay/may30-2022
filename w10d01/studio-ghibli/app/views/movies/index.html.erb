@@ -1,0 +1,13 @@
+<h1>All the Movies</h1>
+
+<%# <a href="/characters">See the characters</a> %>
+
+<%#= link_to "See the characters", "/characters" %>
+
+
+<% @movies.each do |movie| %>
+  <div class="movie">
+    <h2>Movie: <%= movie.name %></h2>
+    <%= link_to "See the characters", movie_characters_path(movie) %>
+  </div>
+<% end %>
