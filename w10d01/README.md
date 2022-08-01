@@ -1,10 +1,10 @@
 # W10D01 - Rails Review
 
 ### To Do
-- [ ] "Rails Week" Conversation
-- [ ] MVC Review
-- [ ] Quickly build simple Rails app
-- [ ] Nested Resources
+- [x] "Rails Week" Conversation
+- [x] MVC Review
+- [x] Quickly build simple Rails app
+- [x] Nested Resources
 
 ### Rails Convo
 * like the generators
@@ -20,8 +20,8 @@
 * Controller - brains of the operation
 
 
-
-
+/maps/2/pins
+/videos/3/comments
 
 
 
