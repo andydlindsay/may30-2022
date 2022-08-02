@@ -10,3 +10,4 @@
 * [W07D03 - Immutable Update Patterns](/w07d03)
 * [W07D05 - Custom Hooks](/w07d05)
 * [W10D01 - Rails Review](/w10d01)
+* [ADVANCED - Intro to TypeScript](/w10d03)
