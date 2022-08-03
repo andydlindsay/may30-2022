@@ -1,0 +1,12 @@
+"use strict";
+let age = 42;
+let username = 'Alice';
+username = 'Bob';
+username = 7;
+username = false;
+age = 7;
+const names = [];
+names.push('Carol');
+names.push(42);
+// names.push(true);
+const something = names.pop();
